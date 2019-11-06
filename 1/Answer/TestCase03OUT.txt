@@ -1,0 +1,166 @@
+ID 1 //intFunction 
+: NONE 
+KEYWORD 7 
+KEYWORD 9 
+( NONE 
+ID 2 //intVar 
+: NONE 
+KEYWORD 9 
+, NONE 
+ID 3 //boolVar 
+: NONE 
+KEYWORD 2 
+) NONE 
+{ NONE 
+KEYWORD 8 
+( NONE 
+ID 3 //boolVar 
+) NONE 
+{ NONE 
+ID 2 //intVar 
+= NONE 
+ID 2 //intVar 
+* NONE 
+2 NUM 
+; NONE 
+} NONE 
+KEYWORD 11 
+ID 2 //intVar 
+; NONE 
+} NONE 
+ID 8 //getLargest 
+: NONE 
+KEYWORD 7 
+KEYWORD 9 
+( NONE 
+ID 9 //intArrVar 
+: NONE 
+KEYWORD 1 
+[ NONE 
+] NONE 
+KEYWORD 9 
+, NONE 
+KEYWORD 9 
+ID 10 //len 
+) NONE 
+= NONE 
+{ NONE 
+ID 12 //largest 
+: NONE 
+KEYWORD 9 
+= NONE 
+0 NUM 
+; NONE 
+ID 13 //x 
+: NONE 
+KEYWORD 9 
+; NONE 
+KEYWORD 6 
+( NONE 
+ID 13 //x 
+= NONE 
+0 NUM
+; NONE 
+ID 13 //x 
+< NONE 
+ID 10 //len 
+; NONE 
+ID 13 //x 
++ NONE 
++ NONE 
+) NONE 
+{ NONE 
+KEYWORD 8 
+( NONE 
+ID 9 //intArrVar 
+[ NONE 
+ID 13 //x 
+] NONE 
+> NONE 
+ID 12 //largest 
+) NONE 
+{ NONE 
+ID 12 //largest 
+= NONE 
+ID 9 //intArrVar 
+[ NONE 
+ID 13 //x 
+] NONE 
+; NONE 
+} NONE 
+} NONE 
+KEYWORD 11 
+ID 12 //largest 
+; NONE 	
+} NONE 
+ID 14 //main 
+: NONE 
+KEYWORD 7 
+KEYWORD 9 
+( NONE 
+ID 15 //argc 
+: NONE 
+KEYWORD 9 
+, NONE 
+ID 16 //argv 
+: NONE 
+KEYWORD 1 
+[ NONE 
+] NONE 
+KEYWORD 12 
+) NONE 
+= NONE 
+{ NONE 
+ID 17 //b 
+: NONE 
+KEYWORD 1 
+[ NONE 
+10 NUM 
+] NONE 
+KEYWORD 9 
+= NONE 
+{ NONE 
+0 NUM  
+, NONE 
+1 NUM  
+, NONE 
+2 NUM  
+, NONE 
+3 NUM  
+, NONE 
+4 NUM  
+, NONE 
+5 NUM  
+} NONE 
+; NONE 
+ID 17 //b 
+[ NONE 
+4 NUM 
+] NONE 
+= NONE 
+6 NUM 
+; NONE 
+ID 18 //i 
+: NONE 
+KEYWORD 9 
+; NONE 
+ID 19 //z 
+: NONE 
+KEYWORD 9 
+= NONE 
+ID 1 //intFunction 
+( NONE 
+ID 18 //i 
+, NONE 
+KEYWORD 13 
+) NONE 
+; NONE 
+KEYWORD 10 
+ID 19 //intArrFunction 
+( NONE 
+ID 20 //v 
+, NONE 
+ID 19 //z 
+) NONE 
+; NONE 
+} NONE 

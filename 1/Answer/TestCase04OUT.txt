@@ -1,0 +1,73 @@
+ID 1 //main 
+: NONE 
+KEYWORD 7 
+KEYWORD 9 
+( NONE 
+KEYWORD 9 
+, NONE 
+KEYWORD 12 
+) NONE 
+= NONE 
+{ NONE 
+} NONE 
+ID 2 //boolFunction 
+: NONE 
+KEYWORD 7 
+KEYWORD 2 
+( NONE 
+ID 3 //intVar 
+: NONE 
+KEYWORD 9 
+) NONE 
+= NONE 
+{ NONE 
+KEYWORD 11 
+ID 3 //intVar 
+> NONE 
+5 NUM 
+; NONE 
+} NONE 
+ID 4 //intFunction 
+: NONE 
+KEYWORD 7 
+KEYWORD 9 
+( NONE 
+KEYWORD 9 
+ID 6 //n 
+) NONE 
+= NONE 
+{ NONE 
+ID 7 //total 
+: NONE 
+KEYWORD 9 
+= NONE 
+0 NUM
+; NONE 
+ID 8 //int 
+ID 9 //count 
+; NONE 
+KEYWORD 6 
+( NONE 
+ID 9 //count 
+= NONE 
+0 NUM
+; NONE 
+ID 9 //count 
+< NONE 
+ID 6 //n 
++ NONE 
+1 NUM
+; NONE 
+ID 9 //count 
++ NONE 
++ NONE 
+) NONE 
+{ NONE 
+ID 7 //total 
+= NONE 
+ID 7 //total 
++ NONE 
+ID 9 //count 
+; NONE 
+} NONE 
+

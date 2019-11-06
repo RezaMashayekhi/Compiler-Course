@@ -1,0 +1,65 @@
+ID 1 //square 
+: NONE 
+KEYWORD 7 
+KEYWORD 9 
+( NONE 
+ID 2 //x 
+: NONE 
+KEYWORD 9 
+) NONE 
+= NONE 
+{ NONE 
+KEYWORD 11 
+ID 2 //x 
+^ NONE 
+2 NUM 
+; NONE 
+} NONE 
+ID 3 //printarray 
+: NONE 
+KEYWORD 7 
+KEYWORD 14 
+( NONE 
+ID 4 //a 
+: NONE 
+KEYWORD 1 
+[ NONE 
+] NONE 
+KEYWORD 9 
+, NONE 
+ID 5 //size 
+: NONE 
+KEYWORD 9 
+) NONE 
+= NONE 
+{ NONE 
+ID 6 //i 
+: NONE 
+KEYWORD 9 
+; NONE 
+KEYWORD 6 
+( NONE 
+ID 6 //i 
+= NONE 
+0 NUM 
+; NONE 
+ID 6 //i 
+< NONE 
+ID 5 //size 
+; NONE 
+ID 6 //i 
++ NONE 
++ NONE 
+) NONE 
+{ NONE 
+KEYWORD 10 
+ID 4 //a 
+[ NONE 
+ID 6 //i 
+] NONE 
+, NONE 
+STRING 100//address of "\n" in strings buffer
+; NONE 
+} NONE 
+} NONE 
+
